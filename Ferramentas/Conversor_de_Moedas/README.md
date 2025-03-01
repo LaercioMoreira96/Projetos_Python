@@ -1,4 +1,5 @@
 🏦 Conversor de Moedas 💱
+
 Este é um conversor de moedas utilizando a biblioteca Tkinter para a interface gráfica e a API da Invertexto para obter as taxas de câmbio em tempo real.
 
 🎯 Objetivo
