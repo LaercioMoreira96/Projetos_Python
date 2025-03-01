@@ -58,4 +58,4 @@ Recomenda-se utilizar a automação com moderação para evitar bloqueios na con
 Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato!
 
 Referências
-Este projeto foi inspirado no vídeo "Automatizando Busca de Vagas no LinkedIn" - [https://youtu.be/-ur_fIGxIGI], criado pelo marcos Marcos. A automação foi adaptada e expandida para incluir novas funcionalidades, tornando o processo de coleta e filtragem de vagas mais eficiente.
+Este projeto foi inspirado no vídeo "Automatizando Busca de Vagas no LinkedIn" - [https://youtu.be/-ur_fIGxIGI], criado pelo Marcos. A automação foi adaptada e expandida para incluir novas funcionalidades, tornando o processo de coleta e filtragem de vagas mais eficiente.

@@ -3,10 +3,10 @@ import tkinter as tk
 root = tk.Tk()
 root.title('Conversor de moedas')
 root.geometry("400x300")
-token = '17986|ulfb50c9Bdpf04LjcxcIXeJaSHKxBAdO'
+token = 'INSIRA SEU TOKEN AQUI'
 def calcular():
     try:
-        moeda = tipo_moeda.get()
+        moeda = tipo_moeda.get().split(" - ")[0]
         valor_moeda_origem = float(valor_inserido.get())
         if valor_moeda_origem <= 0:
             label_resultado.config(text="O valor deve ser positivo.")
@@ -32,8 +32,18 @@ label_tipo_moeda = tk.Label(root, text="Tipo de Moeda")
 label_tipo_moeda.pack()
 
 tipo_moeda = tk.StringVar()
-opcoes_moedas = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "CNY"]
-menu_moeda = tk.OptionMenu(root, tipo_moeda, *opcoes_moedas)
+opcoes_moedas = {
+    "USD": "Dólar Americano",
+    "EUR": "Euro",
+    "GBP": "Libra Esterlina",
+    "JPY": "Iene Japonês",
+    "AUD": "Dólar Australiano",
+    "CAD": "Dólar Canadense",
+    "CHF": "Franco Suíço",
+    "CNY": "Yuan Chinês"
+}
+
+menu_moeda = tk.OptionMenu(root, tipo_moeda, *[f"{k} - {v}" for k, v in opcoes_moedas.items()])
 menu_moeda.pack()
 
 label_moeda_entrada = tk.Label(root, text="Digite um valor")
