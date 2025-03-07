@@ -45,9 +45,9 @@ ChromeDriver (compatível com a versão do seu navegador)
 Crie um arquivo chamado credentials.txt na mesma pasta do script e preencha no seguinte formato:
 
 
-username=seu_email
+seuemail
 
-password=sua_senha
+suasenha
 
 2️⃣ Configurar a Pesquisa
 
